@@ -1,0 +1,132 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Start NavBar CSS */
+
+#TopBar {
+    background-color: #0e81b6;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#NavBar {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 375px;
+    height: 100%;
+}
+
+#NavUnorderedList {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0e81b6;
+    height: 50px;
+}
+
+.NavListItem {
+    height: 100%;
+    margin: 0px;
+    display: inline;
+    line-height: 50px;
+}
+
+.NavLink {
+    height: 100%;
+    margin: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.NavLink:hover{
+    background-color: grey;
+}
+
+/* Start Intro CSS */
+
+#IntroDiv {
+    padding: 0px;
+    margin: 0px; 
+    width: 100%;
+    height: 1065px;
+    background-image: url(BinaryBackgroud.png);
+    position: relative;
+}
+
+#IntroBlock{
+    background-color: #0e81b6;
+    height: 315px;
+    width: 550px;
+    top: 100px;
+    left: 50%;
+    position: absolute;
+    margin-left: -275px;
+}
+
+#NameText{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Alice;
+    font-size: 74.2px; 
+    font-style: normal; 
+    font-variant: normal;
+    line-height: 74.2px;
+    text-align: center;
+}
+
+#TitleText{
+    padding: 0px;
+    color: white;
+    font-family: Alice;
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#SocialIconDiv{
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#GithubIcon {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+#LinkedinIcon {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+/*Start About CSS */
+#AboutDiv {
+    width: 100%;
+    height: 1080px;
+    background-color: #0e81b6;
+}
+
+#ConnorImage {
+    border-radius: 50%;
+}
