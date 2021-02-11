@@ -132,14 +132,13 @@ body {
     margin: 0px;
     padding: 0px;
     height: 500px;
-    width: 50%;
-    background-color: green;
+    width: 40%;
     float: left;
 }
 
 #ConnorImage {
     border-radius: 50%;
-    height: 300px;
+    height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -150,19 +149,38 @@ body {
     margin: 0px;
     padding: 0px;
     height: 500px;
-    width: 50%;
-    background-color: red;
+    width: 60%;
     float: left;
+}
+
+#WelcomeHeader{
+    color: white;
+    font-family: Alice;
+    font-size: 50px; 
+    font-style: normal; 
+    font-variant: normal;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+#WelcomeParagraph{
+    color: white;
+    font-family: Alice;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* When screen size hits 1000px, puts width of PictureColumn and TextColumn next to each other*/
 @media only screen and (max-width: 1000px) {
     #PictureColumn {
-      background-color: lightgreen;
       width: 100%;
     }
     #TextColumn {
-        background-color: pink;
         width: 100%;
       }
   }
