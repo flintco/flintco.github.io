@@ -187,13 +187,13 @@ body {
 
   /* Start Experiences Section CSS*/
 
-  #ExperiencesDiv {
+#ExperiencesDiv {
     background-color: white;
     height: 1080px;
     width: 100%;
-  }
+}
 
-  #ExperiencesHeader {
+#ExperiencesHeader {
     color: #0e81b6;
     font-family: Alice;
     font-size: 50px; 
@@ -203,4 +203,23 @@ body {
     padding-top: 17px;
     padding-bottom: 0px;
     margin-top: 0px;
-  }
+}
+
+#WisconsinOuterCircle {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#WisconsinInnerCircle {
+    border-radius: 50%;
+    height: 350px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: -175px 0px 0px -175px;
+    position: absolute;
+
+}
