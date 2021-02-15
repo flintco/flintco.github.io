@@ -206,9 +206,9 @@ body {
 }
 
 #CirclesColumn{
-    background-color: green;
+    /*background-color: green;*/
     width: 600px;
-    height: 600px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -234,4 +234,45 @@ body {
     left: 50%;
     margin: -85px 0px 0px -85px;
     position: absolute;
+}
+
+#WisconsinArrow{
+    background-color: purple;
+    width: 26px;
+    height: 125px;
+    margin-left: 287px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+#JobbleOuterCircle {
+    background-color: #0e81b6;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 200px;
+}
+
+#JobbleOuterCircle:hover{
+    background-color: grey;
+}
+
+#JobbleInnerCircle {
+    border-radius: 50%;
+    height: 170px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: -85px 0px 0px -85px;
+    position: absolute;
+}
+
+#JobbleArrow{
+    background-color: purple;
+    width: 26px;
+    height: 125px;
+    margin-left: 287px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
