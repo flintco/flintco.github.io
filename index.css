@@ -190,7 +190,7 @@ body {
 
 #ExperiencesDiv {
     background-color: white;
-    height: 1080px;
+    height: 1285px;
     width: 100%;
 }
 
@@ -208,8 +208,8 @@ body {
 
 #CirclesColumn{
     background-color: green;
-    width: 600px;
-    height: 1500px;
+    width: 200px;
+    height: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -220,7 +220,7 @@ body {
     height: 200px;
     border-radius: 50%;
     position: relative;
-    margin-left: 200px;
+    margin-left: 0px;
 }
 
 .ExperiencesOuterCircle:hover{
@@ -241,7 +241,7 @@ body {
     background-color: purple;
     width: 26px;
     height: 125px;
-    margin-left: 287px;
+    margin-left: 87px;
     margin-top: -20px;
     margin-bottom: -20px;
 }
