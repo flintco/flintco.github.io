@@ -206,6 +206,23 @@ body {
     margin-top: 0px;
 }
 
+/* Gonna have a left and right column. Visually the circles will probably go on the right.
+    When screen hits a certain size, each column width will go to 100% and the columns will
+    be above and below each other.
+*/
+
+#leftExperiencesColumn{
+
+}
+
+#middleExperiencesColumn{
+    
+}
+
+#rightExperiencesColumn{
+    
+}
+
 #CirclesColumn{
     background-color: green;
     width: 200px;
