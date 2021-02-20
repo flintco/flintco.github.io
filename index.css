@@ -212,16 +212,40 @@ body {
 */
 
 #leftExperiencesColumn{
-
+    background-color: purple;
+    width: 33.3%;
+    float: left;
+    height: 500px;
 }
 
 #middleExperiencesColumn{
-    
+    background-color: yellow;
+    width: 33.3%;
+    float: left;
 }
 
 #rightExperiencesColumn{
+    background-color: orange;
+    width: 33.3%;
+    float: left;
+    height: 500px;
     
 }
+
+/* When screen size hits 1000px, hides rightExperiences Column and adjust other two columns*/
+@media only screen and (max-width: 800px) {
+    #leftExperiencesColumn {
+      width: 50%;
+    }
+    #middleExperiencesColumn {
+        width: 50%;
+    }
+    /*Could also set width to 100% here and it would go below*/
+    #rightExperiencesColumn{
+        display:none;
+    }
+
+  }
 
 #CirclesColumn{
     background-color: green;
