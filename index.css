@@ -216,6 +216,7 @@ body {
     width: 33.3%;
     float: left;
     height: 500px;
+    height: 1170px;
 }
 
 #middleExperiencesColumn{
@@ -230,6 +231,14 @@ body {
     float: left;
     height: 500px;
     
+}
+
+.ExperiencesHeader {
+    color: #0e81b6;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 250px;
+    font-size: 30px;
 }
 
 /* When screen size hits 1000px, hides rightExperiences Column and adjust other two columns*/
