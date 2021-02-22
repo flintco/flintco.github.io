@@ -213,7 +213,7 @@ body {
 
 #leftExperiencesColumn{
     background-color: purple;
-    width: 33.3%;
+    width: 36%;
     float: left;
     height: 500px;
     height: 1170px;
@@ -221,13 +221,13 @@ body {
 
 #middleExperiencesColumn{
     background-color: yellow;
-    width: 33.3%;
+    width: 28%;
     float: left;
 }
 
 #rightExperiencesColumn{
     background-color: orange;
-    width: 33.3%;
+    width: 36%;
     float: left;
     height: 500px;
     height: 1170px;
@@ -245,9 +245,17 @@ body {
 .ExperiencesOrg {
     color: #0e81b6;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 250px;
+    margin-top: 60px;
+    margin-bottom: 0px;
     font-size: 30px;
+}
+
+.ExperiencesYear {
+    color: #0e81b6;
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 20px;
+    font-style: italic;
 }
 
 /* When screen size hits 1000px, hides rightExperiences Column and adjust other two columns*/
