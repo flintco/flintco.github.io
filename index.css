@@ -194,7 +194,7 @@ body {
 
 #ExperiencesDiv {
     background-color: white;
-    height: 1285px;
+    height: 1345px;
     width: 100%;
 }
 
@@ -280,9 +280,9 @@ body {
   }
 
 #CirclesColumn{
-   /*background-color: green;*/
+    /*background-color: green;*/
     width: 200px;
-    height: 1170px;
+    height: 1230px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -311,10 +311,20 @@ body {
 }
 
 .ExperiencesArrow{
-    background-color: /*purple;*/  #0e81b6;
+    background-color: #0e81b6;
     width: 26px;
     height: 125px;
     margin-left: 87px;
     margin-top: -20px;
     margin-bottom: -20px;
+}
+
+#DownArrow{
+    /*background-color: red;*/
+    width: 0; 
+    height: 0; 
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 80px solid #0e81b6;
+    margin-left: 20px;
 }
