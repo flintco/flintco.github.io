@@ -342,3 +342,10 @@ footer {
     width: 100%;
     height: 200px;
 }
+
+.footLayout {
+    width: 33.3%;
+    height: 180px;
+    background-color: yellow;
+    float: left;
+}
