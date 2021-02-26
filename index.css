@@ -268,7 +268,7 @@ body {
     font-style: italic;
 }
 
-/* When screen size hits 1000px, hides rightExperiences Column and adjust other two columns*/
+/* When screen size hits 800px, hides rightExperiences Column and adjust other two columns*/
 @media only screen and (max-width: 800px) {
     #leftExperiencesColumn {
       width: 50%;
@@ -340,12 +340,72 @@ body {
 footer {
     background-color: #0e81b6;
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 
 .footLayout {
     width: 33.3%;
-    height: 180px;
-    background-color: yellow;
+    height: 150px;
+    background-color: #0e81b6;
     float: left;
+}
+
+#Contact{
+    color: white;
+    font-family: Alice;
+    font-size: 70px; 
+    font-style: normal; 
+    font-variant: normal;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.ContactHeader{
+    color: white;
+    font-family: Alice;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.ContactContent{
+    color: white;
+    font-family: Alice;
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+}
+
+#Email{
+    color: white;
+    font-family: Alice;
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal;
+    text-decoration: none;
+    margin-top: -40px;
+    padding: 0px;
+}
+
+/* When screen size hits 730px, adjusts the footer*/
+@media only screen and (max-width: 730px) {
+    #Contact{
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    .ContactContent{
+        font-size: 15px; 
+    }
+    #Email{
+        font-size: 15px; 
+    }
 }
