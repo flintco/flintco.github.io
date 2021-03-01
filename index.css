@@ -321,7 +321,6 @@ body {
 }
 
 #DownArrow{
-    /*background-color: red;*/
     width: 0; 
     height: 0; 
     border-left: 80px solid transparent;
